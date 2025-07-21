@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+# Create a complete HTML file for the Carnatic music notation composer
+html_content = """<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -425,5 +426,7 @@
         
         <div class="controls">
             <div class="control-section">
-                <h3>Add Swarams</h3>
-                <div
+                <h3>Swaram Input</h3>
+                <div class="control-row">
+                    <div class="input-group">
+                        <label for="swaram-input">Swaram
